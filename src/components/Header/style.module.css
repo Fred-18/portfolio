@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+
+.firstcontainer{
+   display: flex;
+   justify-content: space-between;
+   background-color:#212529;
+   justify-content: flex-start;
+   border: solid white 2px;
+   margin: 10px;
+   box-shadow: 10px 5px 5px gray;
+   
+
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+   padding-top: 0px;
+   align-items: flex-start;
+   background-color:#212529;
+   gap: 30px;
+   
+   
+}
+
+.firstTitle{
+   display: flex;
+   font-size: 50px;
+   font-family:PT Sans;  
+}
+
+.secondTitle{
+    display: flex;
+   font-size: 50px;
+   font-family:PT Sans;
+   padding-right: 70px;
+}
+
+.thridTitle{
+   font-size: 50px;
+   font-family:PT Sans;
+   padding-right: 70px;
+}
+
+.img_fred{
+   width: 330px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 50%/ 50%;
+  padding: 5px;
+
+}
