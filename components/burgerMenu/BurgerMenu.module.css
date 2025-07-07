@@ -1,0 +1,8 @@
+.burgerMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    background-color: #0D1F18;
+    border: #0D1F18;
+    margin-top: 10px;
+}
