@@ -1,0 +1,41 @@
+
+.navigationBar {
+    display: flex;
+    background-color: #54B47A;
+    font-family: Poopim, sans-serif;
+    padding: 1rem 2rem;
+    text-align: justify;
+    margin: 0;
+    width: fit-content;
+    border-radius: 8px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+    height: 50vh;
+  /*  display: none;*/
+
+
+
+}
+.nopuce {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    align-items: initial;
+    margin: 0;
+    padding: 0;
+
+
+}
+/*A TESTER DEMAIN*/
+/*
+display: flex;
+background-color: #54B47A;
+font-family: Poopim, sans-serif;
+padding: 1rem 2rem;
+text-align: justify;
+margin: 0;
+width: -moz-fit-content;
+width: fit-content;
+border-radius: 8px;
+box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+height: 50vh;
+display: none;*/
