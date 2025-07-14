@@ -5,21 +5,19 @@ import {JSX} from "react";
 export default function BurgerMenu() {
 
 
-    const lines: JSX.Element[] = [];
 
     function repeatLines(): JSX.Element[] {
+        const lines: JSX.Element[] = [];
         for (let i = 0; i < 3; i++) {
             lines.push(<Line key={i}/>);
         }
         return lines
     }
 
-    return (
-        <>
+    return (<>
             <button className={styles.burgerMenu}>
                 {repeatLines()}
             </button>
-        </>
-    )
+        </>)
 
 }
