@@ -5,7 +5,6 @@ import {JSX} from "react";
 export default function BurgerMenu() {
 
 
-
     function repeatLines(): JSX.Element[] {
         const lines: JSX.Element[] = [];
         for (let i = 0; i < 3; i++) {
@@ -15,9 +14,9 @@ export default function BurgerMenu() {
     }
 
     return (<>
-            <button className={styles.burgerMenu}>
-                {repeatLines()}
-            </button>
-        </>)
+        <button className={styles.mobileNavToggle} aria-controls={"primary-navigation"} aria-expanded={"false"}>
+            {repeatLines()}
+        </button>
+    </>)
 
 }
