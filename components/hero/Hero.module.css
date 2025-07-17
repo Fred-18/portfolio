@@ -1,8 +1,9 @@
 .container {
-
+    display: flex;
+    flex-direction: column;
     background-color: #0D1F18;
     color: #F8F4E2;
-    font-family: Anton,sans-serif;
+    font-family: Anton, sans-serif;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     gap: 2rem;
 }
@@ -13,10 +14,14 @@
 }
 
 .imageWrapper {
+    margin-top: 10vh;
     position: relative;
     width: 50%;
-    height: 300px;
+
 }
+
 .turtel {
     object-fit: contain;
+    position: absolute;
+    margin-left: 300px;
 }
