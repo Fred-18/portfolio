@@ -1,10 +1,15 @@
+"use client"
 import styles from './BurgerMenu.module.css'
 import Line from "../line/Line";
-import {JSX} from "react";
+import {JSX, useState} from "react";
 
 export default function BurgerMenu() {
 
+const[isMenuOpen,setIsMenuOpen]=useState(false);
 
+ function isToggelMenu(){
+     setIsMenuOpen(prev=>!prev)
+ }
     function repeatLines(): JSX.Element[] {
         const lines: JSX.Element[] = [];
         for (let i = 0; i < 3; i++) {
@@ -14,8 +19,8 @@ export default function BurgerMenu() {
     }
 
     return (<>
-        <button className={styles.mobileNavToggle} aria-controls={"primary-navigation"} aria-expanded={"false"}>
-            {repeatLines()}
+        <button onClick={()=>isToggelMenu()} className={styles.mobileNavToggle} aria-controls={"primary-navigation"} aria-expanded={"false"}>
+            {isMenuOpen?<span className={styles.closeIcon}>X</span>:repeatLines()}
         </button>
     </>)
 
