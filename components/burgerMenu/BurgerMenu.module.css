@@ -4,10 +4,14 @@
     gap: 2px;
     background-color: #0D1F18;
     border: #0D1F18;
+    position: absolute;
+    z-index: 10000;
+    color: #F8F4E2;
+
 }
 
-@media (min-width: 35rem){
-    .mobileNavToggle{
+@media (min-width: 35rem) {
+    .mobileNavToggle {
         display: none;
     }
 }
