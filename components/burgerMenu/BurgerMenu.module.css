@@ -1,16 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+
 .mobileNavToggle {
     display: flex;
     flex-direction: column;
     gap: 2px;
-    background-color: #0D1F18;
     border: #0D1F18;
-    position: absolute;
-    z-index: 10000;
     color: #F8F4E2;
-
+    margin-right: 100px;
+    width: 100%;
+   padding-bottom: 2rem;
 }
 
-@media (min-width: 35rem) {
+.closeIcon {
+    color: #54B47A;
+    font-family: "Chiron GoRound TC", sans-serif;
+    font-weight: bolder;
+    gap: 2px;
+    margin-right: 100px;
+    width: 100%;
+    /*position: fixed;*/
+    font-size: 35px;
+    display: block;
+}
+
+
+@media (min-width: 48rem) {
     .mobileNavToggle {
         display: none;
     }
