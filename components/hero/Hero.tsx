@@ -7,8 +7,6 @@ export default function Hero() {
     return (
         <>
             <header className={styles.container}>
-                <BurgerMenu/>
-                <NavigationBar/>
                 <figure className={styles.imageWrapper}>
                     <div>
 
@@ -18,7 +16,7 @@ export default function Hero() {
 
                             <Image className={styles.turtel}
                                    src={"/assets/turtelWithbackground.svg"}
-                                   alt={"fred turtel"}
+                                   alt={"fred turtle"}
                                    fill
                                    sizes="(max-width: 768px) 100vw, 50vw"/>
 
