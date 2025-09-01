@@ -14,7 +14,7 @@ export default function NavigationBar() {
         <nav>
             <div className={styles.bm}><BurgerMenu isOpen={menuIsOpen} onToggleAction={updateNavbarState}/></div>
             <div className={styles.smallHeader}>
-                <img className={styles.turtel} src={"./assets/turtelWithbackground.svg"}/>
+                <img className={styles.turtle} src={"./assets/turtelWithbackground.svg"}/>
                 <a className={styles.linkHome} href={"home"}><span>Fred Nobre</span></a>
             </div>
             <ul className={`${styles.primaryNavigation} ${menuIsOpen ? styles.open : ''}`}>
