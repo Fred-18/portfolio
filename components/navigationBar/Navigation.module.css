@@ -1,13 +1,13 @@
 .primaryNavigation {
     display: flex;
-     background: #1F3D2B;
+     background: #54B47A;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     list-style: none;
     justify-content: flex-end;
     height: 50px;
 }
 
-.turtle {
+.turtleLogo {
     display: flex;
     align-items: center;
     padding: 0;
@@ -50,7 +50,7 @@
 
 /*Media*/
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 50rem) {
     .primaryNavigation {
         left: 0;
         height: 100%;
@@ -88,7 +88,7 @@
         margin-left: 5px;
     }
 
-    .turtle {
+    .turtleLogo {
         display: flex;
     }
 
