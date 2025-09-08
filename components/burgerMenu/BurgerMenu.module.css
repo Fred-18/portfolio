@@ -24,7 +24,7 @@
 }
 
 
-@media (min-width: 48rem) {
+@media (min-width: 50rem) {
     .mobileNavToggle {
         display: none;
     }
