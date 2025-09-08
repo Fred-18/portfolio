@@ -1,27 +1,60 @@
 .container {
     display: flex;
-    flex-direction: column;
-    background-color: #0D1F18;
+    background-color:red;
     color: #F8F4E2;
     font-family: Anton, sans-serif;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     gap: 2rem;
-}
-.secondeContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
+
 }
 
 .imageWrapper {
+    display: flex;
+    background: orange;
+    gap: 50%;
     margin-top: 10vh;
-    position: relative;
-    width: 50%;
-
+    width: 100%;
 }
 
 .turtle {
-    object-fit: contain;
-    position: absolute;
+    height: 143px;
+    display: flex;
     margin-left: 300px;
+    /*position: relative;*/
+
+}
+.turtleContainer{
+    width: 50%;
+    display: flex;
+    background: orange;
+    justify-content: flex-start;
+    margin-right: 70%;
+    overflow: visible;
+}
+@media screen and (max-width: 48rem) {
+    .container{
+        display: flex;
+        background: darkcyan;
+    }
+
+    .imageWrapper {
+        display: flex;
+        background: orange;
+        justify-content: flex-start;
+        margin-top: 10vh;
+        width: 100%;
+    }
+
+    .secondeContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background: blue;
+        font-size: larger;
+        width: 100%;
+    }
+    .turtleContainer {
+        display: flex;
+        align-items: center;
+    }
 }
