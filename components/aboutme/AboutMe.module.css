@@ -1,0 +1,32 @@
+.section__title__p{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+    height:auto;
+    background:#F8F4E2 ;
+    position: absolute;
+    gap:20px;
+    color: #0D1F18;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+    font-family: Anton, sans-serif;
+}
+.section__title{
+    padding: 5px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+ .section__p{
+     display: flex;
+     padding-left:100px;
+     font-size: x-large;
+     line-height: 2;
+ }
+.sectionAboutMe{
+    display: flex;
+}
+
+.sectionAboutMeImages{
+    height: 280px;
+    padding: 10px;
+}
+
