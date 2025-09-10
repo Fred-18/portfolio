@@ -1,11 +1,9 @@
 .container {
     display: flex;
-    background-color:red;
     color: #F8F4E2;
     font-family: Anton, sans-serif;
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
     gap: 2rem;
-
 }
 
 .imageWrapper {
@@ -16,14 +14,15 @@
     width: 100%;
 }
 
-.turtel {
+.turtle {
     height: auto;
-    width: 500px;
+    width: 300px;
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
+    margin-bottom: 30px;
 }
+
 .turtleContainer{
     width: 50%;
     display: flex;
@@ -33,41 +32,49 @@
     overflow: visible;
 }
 
+.title{
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
+    font-size: xxx-large;
+    margin: 1rem;
+}
+.subtitle{
+    font-size: xxx-large;
+    margin: 1rem;
+}
 
 @media screen and (max-width: 48rem) {
     .container{
         display: flex;
-        background: darkcyan;
     }
 
     .imageWrapper {
         display: flex;
-        position: absolute;
-        flex-direction:column;
+        flex-direction: column;
         background: #0D1F18;
-        gap:0;
+        gap: 0;
 
     }
+
     .turtleContainer {
         display: flex;
         align-items: center;
     }
+
     .title {
         margin: 1rem;
         font-size: xx-large;
     }
+
     .subtitle{
         margin:1rem;
+        font-size: xx-large;
     }
-    .turtel {
+
+    .turtle {
         display: flex;
         right: 0;
         height: 150px;
         width: 200px;
-        /*position: absolute;*/
         margin-left: auto;
-        position: relative;;
-
     }
-    /*Modifier ortho de turtle*/
 }
