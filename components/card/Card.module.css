@@ -1,10 +1,40 @@
-.Card__container{
+.Card__container {
     display: flex;
-    border:solid 1px;
+    border: solid 6px #C58F32;
+    border-radius: 5px;
+    width: 90px;
+    flex-direction: column;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 
-.Card__images{
+.Card__container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.card__title {
     display: flex;
-    background: red;
-    height: 20px;
+    justify-content: center;
+    width: 100%;
+    font-family: Anton, sans-serif;
+    background-color: #C58F32;
+    color: #F8F4E2;
+    font-size: xx-large;
+}
+
+.Card__images {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    border: solid 2px #1F3D2B;
+    border-radius: 2px;
+}
+
+/*Media*/
+
+@media screen and (max-width: 50rem) {
+    .Card__images {
+        display: none;
+    }
 }
