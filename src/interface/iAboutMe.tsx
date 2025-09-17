@@ -1,7 +1,6 @@
-export interface IAboutMeContent {
+export interface IAboutMe {
     AboutMe: {
         title: string;
         p: string;
-        images: string
     }
 }

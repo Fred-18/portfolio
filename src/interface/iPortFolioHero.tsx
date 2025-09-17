@@ -1,4 +1,4 @@
-export interface IPortFolioHeroContent {
+export interface IPortFolioHero {
     Hero: {
         title: string;
         subtitle: string;
