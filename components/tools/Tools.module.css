@@ -1,0 +1,12 @@
+.Tools__title{
+    padding: 15px;
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #F8F4E2;
+    font-family: Anton,sans-serif;
+}
+
+.Tools__container{
+    padding: 20px;
+    background: #1F3D2B;
+}
