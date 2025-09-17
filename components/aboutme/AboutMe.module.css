@@ -4,11 +4,11 @@
     opacity: 0.8;
     height:auto;
     background:#F8F4E2 ;
-    position: absolute;
     gap:20px;
     color: #0D1F18;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
     font-family: Anton, sans-serif;
+    z-index: 2;
 }
 .section__title{
     padding: 5px;
@@ -20,13 +20,11 @@
      padding-left:100px;
      font-size: x-large;
      line-height: 2;
+     top:0;
  }
 .sectionAboutMe{
-    display: flex;
+    background-image: url("/assets/Vector.png");
+    background-repeat: no-repeat;
 }
 
-.sectionAboutMeImages{
-    height: 280px;
-    padding: 10px;
-}
 

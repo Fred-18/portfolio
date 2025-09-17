@@ -10,7 +10,6 @@ export default function AboutMe() {
                 <h2 className={styles.section__title}>{aboutMeContent.AboutMe.title}</h2>
                 <p className={styles.section__p}>{aboutMeContent.AboutMe.p}</p>
                 </div>
-                <img className={styles.sectionAboutMeImages} src={aboutMeContent.AboutMe.images}/>
             </section>
         </>
     )
