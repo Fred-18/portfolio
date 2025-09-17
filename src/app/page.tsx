@@ -1,11 +1,13 @@
-import Hero from "../../components/hero/Hero";
-import Test from "../../components/testdoc/test";
-import AboutMe from "../../components/aboutme/AbouteMe";
+import Hero from "../../components/hero/Hero";import AboutMe from "../../components/aboutme/AbouteMe";
+import Card from "../../components/card/Card";
 export default function Home() {
     return (
         <>
             <Hero/>
-            <AboutMe/>
+                <AboutMe/>
+            <section>
+                <Card/>
+            </section>
         </>
     );
 }
