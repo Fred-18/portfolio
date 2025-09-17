@@ -1,0 +1,10 @@
+.Card__container{
+    display: flex;
+    border:solid 1px;
+}
+
+.Card__images{
+    display: flex;
+    background: red;
+    height: 20px;
+}
