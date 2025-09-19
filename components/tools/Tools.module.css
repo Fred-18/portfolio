@@ -9,4 +9,7 @@
 .Tools__container{
     padding: 20px;
     background: #1F3D2B;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
 }
