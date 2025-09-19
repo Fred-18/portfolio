@@ -8,7 +8,7 @@
     color: #0D1F18;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
     font-family: Anton, sans-serif;
-    z-index: 2;
+    /*z-index: 2;*/
 }
 .section__title{
     padding: 15px;
