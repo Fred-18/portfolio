@@ -1,16 +1,16 @@
-import {cardContent} from "@/content/cardContent";
 import styles from './Card.module.css';
+import {CardItem} from "../../Type/type";
 
-export default function Card() {
+export default function Card({title, images}: CardItem) {
 
     return (
         <>
-            <div className={styles.Card__container}>
-                <img className={styles.Card__images} src={cardContent.Card.images.src[0]}/>
+            <article className={styles.Card__container}>
+                <img src={images} className={styles.Card__images} alt={title}/>
                 <div className={styles.card__title__container}>
-                    <h3 className={styles.card__title}>{cardContent.Card.title[0]}</h3>
+                    <h3 className={styles.card__title}>{title}</h3>
                 </div>
-            </div>
+            </article>
         </>
     )
 }
