@@ -7,6 +7,10 @@ export type CardItem = {
     images: string;
     id?: string;
 }
-export type icard = {
-    card: CardItem[];
+
+export type BigCardItem= {
+    description: string;
+    link: string;
+    techno: string;
+    title: string;
 }
