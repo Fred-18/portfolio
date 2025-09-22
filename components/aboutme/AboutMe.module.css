@@ -2,13 +2,13 @@
     display: flex;
     flex-direction: column;
     opacity: 0.8;
-    height:auto;
+    min-height:300px;
     background:#F8F4E2 ;
     gap:20px;
     color: #0D1F18;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
     font-family: Anton, sans-serif;
-    /*z-index: 2;*/
+    padding: 30px;
 }
 .section__title{
     padding: 15px;
