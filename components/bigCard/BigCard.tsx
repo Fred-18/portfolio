@@ -8,7 +8,7 @@ export default function BigCard({title,techno,link,description}: BigCardItem){
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <span>{techno}</span>
-                <link href={link}/>
+                <a href={link} target="_blank">{link}</a>
             </div>
         </>
     )
