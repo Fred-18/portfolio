@@ -1,11 +1,24 @@
 .Project__container{
     background: #F8F4E2;
-}
-
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;   /* espace entre les cartes */
+    width: 100%;
+    box-sizing: border-box;
+    }
 .Project__title{
-    font-family:Anton,sans-serif;
-}
+    font-weight: bolder;
+    font-size: xx-large;
+    color: #1F3D2B;
+    font-family: Anton,sans-serif;
+    background-color: #F8F4E2;
+    padding: 20px 0 20px 50px;
 
-.bigCard__container{
+}
+.bigCard__items{
+    padding: 20px;
+    display: grid;
+    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 
 }

@@ -1,0 +1,56 @@
+.bigCardContainer{
+    text-align: center;
+    border: solid 2px #C58F32;
+    flex: 1 1 clamp(280px, 30%, 400px); /* ← super flexible */
+    min-height: 200px;
+    box-sizing: border-box;
+    background: #1F3D2B;
+
+}
+.bigCard__title{
+    background: #C58F32;
+    padding: 3px;
+    font-family: Anton,sans-serif;
+    color: #1F3D2B;
+}
+.bigCard__description{
+    border: #C58F32 solid 10px;
+    background: #1F3D2B;
+    color: #F8F4E2;
+    padding: 10px;
+    font-family: Poopim,sans-serif;
+}
+.bigCard__techno{
+    border: #C58F32 solid 10px;
+    font-family: Poopim,sans-serif;
+    background: #1F3D2B;
+    color: #F8F4E2;
+    padding: 10px;
+    display: block;
+}
+
+.bigCard__link{
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Poopim,sans-serif;
+    color: #C58F32;
+    word-wrap:break-word;
+    overflow-wrap: break-word;
+    text-decoration: none;
+    white-space: normal;
+    transition: all 0.2s ease-in;
+    background: #1F3D2B;/* effet fluide sur hover */
+    display: block;
+}
+.bigCard__link:hover {
+    color: #e6a84f;                 /* doré plus clair au survol */
+    text-decoration: underline;     /* petit soulignement élégant */
+}
+
+.bigCard__link:active {
+    color: #a36a23;                 /* doré plus foncé quand cliqué */
+}
+
+.bigCard__link:visited {
+    color: #c7a06b;                 /* doré adou*/
+}

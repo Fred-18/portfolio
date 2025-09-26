@@ -1,15 +1,16 @@
  import {BigCardItem} from "../../Type/type";
+import styles from "../bigCard/BigCard.module.css"
 
 export default function BigCard({title,techno,link,description}: BigCardItem){
 
     return(
         <>
-            <div>
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <span>{techno}</span>
-                <a href={link} target="_blank">{link}</a>
-            </div>
+            <section className={styles.bigCardContainer}>
+            <h3 className={styles.bigCard__title}>{title}</h3>
+            <p className={styles.bigCard__description}>Description : {description}</p>
+            <span className={styles.bigCard__techno}>Tools : {techno}</span><br/>
+            <a  className={styles.bigCard__link} href={link} target="_blank">{link}</a>
+            </section>
         </>
     )
 }
