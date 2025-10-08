@@ -1,24 +1,32 @@
 .Project__container{
-    background: #F8F4E2;
+    background:#0D1F18;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 20px;   /* espace entre les cartes */
+    gap: 20px;
     width: 100%;
     box-sizing: border-box;
+    padding:40px;
     }
 .Project__title{
     font-weight: bolder;
     font-size: xx-large;
-    color: #1F3D2B;
+    color: #F8F4E2;
     font-family: Anton,sans-serif;
-    background-color: #F8F4E2;
+    background-color: #0D1F18;
     padding: 20px 0 20px 50px;
-
+}
+.Project__message{
+    background:#0D1F18;
+    font-family: Anton,sans-serif;
+    color: #F8F4E2;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: x-large;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .bigCard__items{
-    padding: 20px;
     display: grid;
     gap: 35px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding: 16px 12px;
 }
