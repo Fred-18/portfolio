@@ -4,7 +4,7 @@ export interface iBigCard
         id:string;
         title: string;
         p: string;
-        span: string;
+        span: string[];
         link: string;
     }[]
 }
