@@ -10,7 +10,7 @@
 .turtleLogo {
     display: flex;
     align-items: center;
-    padding: 0;
+    padding-left: 20px;
     height: 2em;
     margin-top: 10px;
 }
@@ -24,6 +24,7 @@
     align-items: center;
     padding: 0 30px;
     font-family: Anton, sans-serif;
+    font-size:max(20px);
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
 }
 
@@ -40,6 +41,8 @@
     font-family: Anton, sans-serif;
     color: #F8F4E2;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.35);
+    font-size:max(20px);
+
 }
 
 .smallHeader a:hover {
