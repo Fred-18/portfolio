@@ -11,6 +11,6 @@ export type CardItem = {
 export type BigCardItem= {
     description: string;
     link: string;
-    techno: string;
+    techno: string[];
     title: string;
 }
