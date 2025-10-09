@@ -3,50 +3,50 @@ import {iCard} from "@/interface/iCard";
 export const cardContent: iCard = {
     Card: [
         {
-            id:"1",
-            title: "Java",
-            images: "/assets/java_logo_clean.png"
+            cardId: "1",
+            cardTitle: "Java",
+            cardImages: "/assets/java_logo_clean.png"
         },
         {
-            id:"2",
-            title: "JavaScript",
-            images: "/assets/javascriptlogo.png"
+            cardId: "2",
+            cardTitle: "JavaScript",
+            cardImages: "/assets/javascriptlogo.png"
         },
         {
-            id:"3",
-            title: "Springboot",
-            images: "/assets/Springboot.png "
+            cardId: "3",
+            cardTitle: "Springboot",
+            cardImages: "/assets/Springboot.png "
         },
         {
-            id:"4",
-            title: "React",
-            images: "/assets/Reactlogo.png"
+            cardId: "4",
+            cardTitle: "React",
+            cardImages: "/assets/Reactlogo.png"
         },
         {
-            id:"5",
-            title: "Next.js",
-            images: "/assets/Nextjslogo.png"
+            cardId: "5",
+            cardTitle: "Next.js",
+            cardImages: "/assets/Nextjslogo.png"
         },
         {
-            id:"6",
-            title: "TypesScript",
-            images: "/assets/Typescript.png"
+            cardId: "6",
+            cardTitle: "TypesScript",
+            cardImages: "/assets/Typescript.png"
         },
         {
-            id:"7",
-            title: "Express.js",
-            images: "/assets/Expresslogo.png"
+            cardId: "7",
+            cardTitle: "Express.js",
+            cardImages: "/assets/Expresslogo.png"
         },
         {
-            id:"8",
-            title: "Docker",
-            images: "/assets/docker.png"
+            cardId: "8",
+            cardTitle: "Docker",
+            cardImages: "/assets/docker.png"
         },
 
         {
-            id:"9",
-            title: "Figma",
-            images: "/assets/Figma.png"
+            cardId: "9",
+            cardTitle: "Figma",
+            cardImages: "/assets/Figma.png"
         },
     ]
 }

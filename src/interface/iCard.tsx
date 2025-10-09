@@ -1,7 +1,7 @@
 export interface iCard {
     Card: {
-        id:string
-        title: string;
-        images:string;
+        cardId: string
+        cardTitle: string;
+        cardImages: string;
     }[]
-    }
+}
