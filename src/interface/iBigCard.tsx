@@ -1,10 +1,10 @@
 export interface iBigCard
 {
     BigCard: {
-        id:string;
-        title: string;
-        p: string;
-        span: string[];
-        link: string;
+        projectId:string;
+        projectTitle: string;
+        projectDescription: string;
+        projectTechnology: string[];
+        projectLink: string;
     }[]
 }
