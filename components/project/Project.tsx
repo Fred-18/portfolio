@@ -11,8 +11,8 @@ export default function Project() {
             <section className={styles.Project__container}>
                 <div className={styles.bigCard__items}>
                     {bigCardContent.BigCard.map((item) => (
-                        <BigCard key={item.id} description={item.p} link={item.link} techno={item.span}
-                                 title={item.title}/>))}
+                        <BigCard  projectId={""} key={item.projectId} projectDescription={item.projectDescription} projectLink={item.projectLink} projectTechno={item.projectTechnology}
+                                 projectTitle={item.projectTitle}/>))}
                 </div>
             </section>
         </>
