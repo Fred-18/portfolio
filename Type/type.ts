@@ -3,14 +3,15 @@ export type BurgerMenuProps = {
     onToggleAction: () => void;
 }
 export type CardItem = {
-    title: string;
-    images: string;
-    id?: string;
+    cardTitle: string;
+    cardImages: string;
+    cardId?: string;
 }
 
 export type BigCardItem= {
-    description: string;
-    link: string;
-    techno: string[];
-    title: string;
+    projectId:string;
+    projectDescription: string;
+    projectLink: string;
+    projectTechno: string[];
+    projectTitle: string;
 }
