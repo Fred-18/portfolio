@@ -1,3 +1,15 @@
-.bubbleTechno{
-    background: #F8F4E2;
+.bubblesContent {
+    background: #1F3D2B;
+    border-radius: 20px;
+    width: max-content;
+    padding: 10px;
+    border: solid 3px #C58F32;
+    color: #F8F4E2;
+    font-family: Poopim, sans-serif;
+    transition: transform 0.3s ease;
+}
+.bubblesContent:hover{
+    transform: scale(1.15);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+
 }
