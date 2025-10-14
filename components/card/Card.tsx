@@ -1,7 +1,7 @@
 import styles from './Card.module.css';
-import {CardItem} from "../../Type/type";
+import {CardProps} from "../../Type/type";
 
-export default function Card({cardTitle, cardImages}: CardItem) {
+export default function Card({cardTitle, cardImages}: CardProps) {
 
     return (
         <>
