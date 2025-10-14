@@ -27,7 +27,7 @@ export const bigCardContent: iBigCard = {
             projectId: "4",
             projectTitle: "Etl-NBA",
             projectDescription: "A NestJS ETL pipeline that extracts, transforms, and loads NBA data into PostgreSQL.",
-            projectTechnology: ["TypeScript", "Docker", "PostgreSQL", "NestJS"],
+            projectTechnology: ["TypeScript", "Docker", "NestJS","PostgreSQL", ],
             projectLink: "https://github.com/Fred-18/etl-nba?tab=readme-ov-file#nba-etl---extract-transform-and-load-project-with-nestjs"
         },
         {
@@ -55,7 +55,7 @@ export const bigCardContent: iBigCard = {
             projectId: "8",
             projectTitle: "Notomatic",
             projectDescription: "A small mentoring project to learn React and Redux through a simple to-do app.",
-            projectTechnology: ["React", "Redux", "JavaScript (ES6)", "HTML", "CSS"],
+            projectTechnology: ["React", "Redux", "JavaScript", "HTML", "CSS"],
             projectLink: "https://github.com/Fred-18/notomatic/blob/001-starter/README.md"
         }
     ]

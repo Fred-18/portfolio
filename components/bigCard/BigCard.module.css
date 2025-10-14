@@ -1,4 +1,4 @@
-.bigCardContainer{
+.bigCardContainer {
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -7,53 +7,46 @@
     background: #F8F4E2;
     min-height: 420px;
     border: solid
-
 }
-.bigCard__title{
+
+.bigCard__title {
     text-align: center;
     background: #C58F32;
     padding: 16px 12px;
-    font-family: Anton,sans-serif;
-    color: #0D1F18;
+    font-family: Anton, sans-serif;
+    color: #0D3F18;
     font-size: xx-large;
     border-radius: 5px;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
-.bigCard__description{
+
+.bigCard__description {
     border: #C58F32 solid 10px;
     background: #0D1F18;
     color: #F8F4E2;
     padding: 10px;
-    font-family: Poopim,sans-serif;
-    font-size: large;
+    font-family: Poopim, sans-serif;
+    font-size: 0.9rem;
     border-radius: 5px;
-}
-.bigCard__techno{
-    border: #C58F32 solid 10px;
-    font-family: Poopim,sans-serif;
-    background: #0D1F18;
-    color: #F8F4E2;
-    font-size: max(20px);
-    padding: 10px;
-    border-radius: 5px;
-
+    height: 15vh;
 }
 
-.bigCard__link{
+.bigCard__link {
     margin-top: auto;
-    font-family: Poopim,sans-serif;
-    color: #C58F32;
-    word-wrap:break-word;
+    color: #F8F4E2;
+    word-wrap: break-word;
     overflow-wrap: break-word;
     text-decoration: none;
     white-space: normal;
     transition: all 0.2s ease-in;
-    background: #0D1F18;/* effet fluide sur hover */
+    background: #0D1F18;
     display: block;
-    font-size: max(15px);
+    font-size: max(20px);
     border: #C58F32 solid 10px;
     border-radius: 5px;
     padding: 8px;
+    font-family: Anton, sans-serif;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.8);
 }
 
 /*lINKS*/
@@ -72,19 +65,31 @@
 
 /*CARD TITLE DESCRIPTION TOOLS*/
 
-.bigCard__descriptionTitle{
-    font-family: Poopim,sans-serif;
+.bigCard__descriptionTitle {
+    font-family: Poopim, sans-serif;
     font-size: max(15px);
     padding: 2px;
 }
 
-.bigCard__toolsTitle{
-    font-family: Poopim,sans-serif;
+.bigCard__toolsTitle {
+    font-family: Poopim, sans-serif;
     font-size: max(15px);
-    padding: 2px;
+    padding-bottom: 3px;
+    padding-top: 2vh;
 }
-.bigCard__linksTitle{
-    font-family: Poopim,sans-serif;
+
+.bigCard__linksTitle {
+    font-family: Poopim, sans-serif;
     font-size: max(15px);
     padding: 2px;
+    margin-top: auto;
+}
+
+.bubbleContainer {
+    flex: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px
 }
