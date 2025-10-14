@@ -2,16 +2,21 @@ export type BurgerMenuProps = {
     isOpen: boolean;
     onToggleAction: () => void;
 }
-export type CardItem = {
+export type CardProps = {
     cardTitle: string;
     cardImages: string;
     cardId?: string;
 }
 
-export type BigCardItem= {
+export type BigCardProps = {
     projectId:string;
     projectDescription: string;
     projectLink: string;
     projectTechno: string[];
     projectTitle: string;
+}
+
+export type BubbleProps = {
+    projectId:string;
+    projectTechno: string ;
 }
