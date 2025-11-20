@@ -1,7 +1,6 @@
-export interface iBigCard
-{
+export interface iBigCard {
     BigCard: {
-        projectId:string;
+        projectId: string;
         projectTitle: string;
         projectDescription: string;
         projectTechnology: string[];
