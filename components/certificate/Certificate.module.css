@@ -1,0 +1,17 @@
+.certificate__title {
+  padding: 20px;
+  color: #1f3d2b;
+  font-size: xx-large;
+  text-align: center;
+  font-family: Anton, sans-serif;
+  background: #f8f4e2;
+}
+
+.certificate__section {
+  display: grid;
+  background: #f8f4e2;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
