@@ -1,0 +1,52 @@
+.certificate__container {
+  background: #0d1f18;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 260px;
+  min-width: 200px;
+  min-height: 130px;
+  border: solid 5px #c58f32;
+  border-radius: 4px;
+  color: #f8f4e2;
+  padding: 12px;
+  gap: 10px;
+  aspect-ratio: 4/3;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.certificate__container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/*Title ,Date , School*/
+.certificate__card__title {
+  padding: 3px;
+  font-family: Poopim, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: solid 2px #c58f32;
+  border-radius: 2px;
+}
+
+.certificate__card__date {
+  padding: 3px;
+  font-family: Poopim, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: solid 2px #c58f32;
+  border-radius: 2px;
+}
+
+.certificate__card__school {
+  padding: 3px;
+  font-family: Poopim, sans-serif;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: solid 2px #c58f32;
+  border-radius: 2px;
+}
+.certificate__card__image {
+  width: 30px;
+  margin-left: 185px;
+}
+/*<a href="https://www.flaticon.com/fr/icones-gratuites/certification" title="certification icônes">Certification icônes créées par Pixel Buddha - Flaticon</a>*/
