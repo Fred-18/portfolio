@@ -1,4 +1,4 @@
-.section__title__p{
+.section__container{
     display: flex;
     flex-direction: column;
     opacity: 0.8;
@@ -23,7 +23,7 @@
      top:0;
  }
 .sectionAboutMe{
-    background-image: url("/assets/Vector.png");
+    background-image: url("/assets/Vector.svg");
     background-repeat: no-repeat;
 }
 
