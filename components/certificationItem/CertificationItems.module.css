@@ -28,6 +28,7 @@
   background-color: rgba(0, 0, 0, 0.3);
   border: solid 2px #c58f32;
   border-radius: 2px;
+  height: 100%;
 }
 
 .certificate__card__date {
