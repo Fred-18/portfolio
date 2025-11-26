@@ -1,0 +1,52 @@
+.professionalExperienceItem__container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: #357a4b;
+  max-width: 600px;
+  min-width: 300px;
+  min-height: 130px;
+  padding: 20px;
+  border: solid 5px #c58f32;
+  margin-bottom: 5vh;
+  margin-left: 50px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  height: 100%;
+}
+
+.professionalExperience__card__companyName {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #f8f4e2;
+  font-family: poppins, sans-serif;
+  border: solid 5px #c58f32;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.professionalExperience__card__dates {
+  background-color: #f8f4e2;
+  font-family: poppins, sans-serif;
+  padding: 15px;
+  border-radius: 5px;
+  border: solid 5px #c58f32;
+  font-weight: bold;
+}
+
+.professionalExperience__card__missions {
+  background-color: #f8f4e2;
+  padding: 15px;
+  font-family: poppins, sans-serif;
+  border-radius: 5px;
+  font-style: italic;
+  font-weight: bold;
+  border: solid 5px #c58f32;
+  height: 100%;
+}
+
+.professionalExperience__card__title {
+  color: #f8f4e2;
+  font-family: P poppins, sans-serif;
+  font-size: large;
+}
