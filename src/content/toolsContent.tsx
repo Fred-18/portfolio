@@ -1,7 +1,7 @@
-import{ITools} from "@/interface/iTools";
+import { ITools } from "../interface/iTools";
 
-export const toolsContent:ITools={
-    Tools:{
-        title:"My Tools"
-    }
-}
+export const toolsContent: ITools = {
+  Tools: {
+    title: "My Tools"
+  }
+};
