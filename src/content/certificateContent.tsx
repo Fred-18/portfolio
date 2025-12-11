@@ -1,4 +1,4 @@
-import { iCertificate } from "@/interface/iCertificate";
+import { iCertificate } from "../interface/iCertificate";
 
 export const certificateContent: iCertificate[] = [
   {
