@@ -9,7 +9,6 @@
   padding: 20px;
   border: solid 5px #c58f32;
   margin-bottom: 5vh;
-  margin-left: 50px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
   height: 100%;
@@ -47,6 +46,6 @@
 
 .professionalExperience__card__title {
   color: #f8f4e2;
-  font-family: P poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: large;
 }

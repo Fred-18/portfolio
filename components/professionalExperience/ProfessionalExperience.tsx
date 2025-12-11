@@ -1,4 +1,4 @@
-import { professionalExperienceContent } from "@/content/professionalExperienceContent";
+import { professionalExperienceContent } from "../../src/content/professionalExperienceContent";
 import ProfessionalExperienceItem from "../professionalExperienceItem/ProfessionalExperienceItem";
 import styles from "./professionalExperience.module.css";
 

@@ -1,5 +1,5 @@
 import styles from "./professionalExperienceItem.module.css";
-import { IProfessionalExperience } from "@/interface/iProfessionalExperience";
+import { IProfessionalExperience } from "../../interfaces/iProfessionalExperience";
 
 export default function ProfessionalExperienceItem({
   companyName,
