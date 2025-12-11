@@ -1,4 +1,4 @@
-import { IProfessionalExperience } from "@/interface/iProfessionalExperience";
+import { IProfessionalExperience } from "../interface/iProfessionalExperience";
 
 export const professionalExperienceContent: IProfessionalExperience[] = [
   {
