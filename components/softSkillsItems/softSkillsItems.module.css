@@ -1,0 +1,14 @@
+.SoftSkills__items {
+  font-family: Anton, sans-serif;
+  font-size: xx-large;
+  border-radius: 5px;
+  padding: 5px;
+  justify-content: space-between;
+  border: solid 5px #c58f32;
+  border-radius: 999px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.SoftSkills__items:hover {
+  transform: scale(1.05); /* plus doux */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}

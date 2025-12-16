@@ -1,0 +1,19 @@
+.SoftSkills__title {
+  background: hsl(49, 61%, 93%);
+  border-top: solid 5px #1f3d2b;
+  padding: 20px 0 20px 50px;
+  font-weight: bolder;
+  font-family: Anton, sans-serif;
+  color: #1f3d2b;
+  font-size: xx-large;
+}
+
+.SoftSkills__section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  background-color: #1f3d2b;
+  text-align: center;
+  color: white;
+  gap: 20px;
+  padding: 20px;
+}
