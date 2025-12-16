@@ -5,6 +5,7 @@ import Project from "../../components/project/Project";
 import Certificate from "../../components/certificate/Certificate";
 import ProfessionalExperience from "../../components/professionalExperience/ProfessionalExperience";
 import Testimonials from "../../components/testimonials/Testimonials";
+import SoftSkills from "../../components/softskills/SoftSkills";
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       <Certificate />
       <ProfessionalExperience />
       <Testimonials />
-      <h1>wwwww</h1>
+      <SoftSkills />
     </>
   );
 }
