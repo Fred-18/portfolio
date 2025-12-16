@@ -18,7 +18,7 @@ export const testimonialContent: ITestimonials[] = [
     lastName: "Ferrer",
     role: "Software Engineer at Octo Technology",
     message:
-      "I had the pleasure of working with Fred, and I can only warmly recommend him. He is a curious, committed developer who is always eager to learn. He asks relevant questions, seeks to deeply understand technical issues, and constantly improves the quality of his code. Fred also brings real positive energy to the team: he is pleasant, kind, and knows how to collaborate effectively with everyone. He already has strong technical maturity and real potential to quickly grow into roles with greater responsibility.Fred is someone who is very pleasant to work with on a daily basis. He is curious, not afraid to ask questions, and does not hesitate to express his opinion with accuracy. He is also someone who is very dedicated in general and does not give up easily.These qualities allowed him to gain the autonomy needed on the project we worked on together for six months (1Jeune1Solution), and I can only recommend Fred, both on a human and professional level.",
+      "I had the pleasure of working with Fred, and I can only warmly recommend him. He is a curious, committed developer who is always eager to learn. He asks relevant questions, seeks to deeply understand technical issues, and constantly improves the quality of his code. Fred also brings real positive energy to the team: he is pleasant, kind, and knows how to collaborate effectively with everyone. He already has strong technical maturity and real potential to quickly grow into roles with greater responsibility.",
     linkedinUrl: "https://www.linkedin.com/in/juliette-ferrer/",
     avatar: "./assets/ju.jpeg"
   },
@@ -54,5 +54,15 @@ export const testimonialContent: ITestimonials[] = [
       "Fred is always a pleasure to work with. He has an endless thirst for knowledge, asks questions, challenges the team, and is not afraid to get hands-on with the code. And on top of that, he s a pleasure to be around on a daily basis!",
     avatar: "./assets/Gau.jpeg",
     linkedinUrl: "https://www.linkedin.com/in/gauthier-fiorentino/"
+  },
+  {
+    id: "6",
+    firstName: "Guillaume",
+    lastName: "Marcq",
+    role: "Software Engineer at Octo Technology",
+    message:
+      "Fred fell in love with software development. He has a very curious mindset and adapts easily to the situations he encounters. He quickly builds skills on new frameworks and experiments a lot, which allows him to steadily expand his capabilities.",
+    avatar: "./assets/GuiM.jpeg",
+    linkedinUrl: "https://www.linkedin.com/in/guillaume-marcq-85906918/"
   }
 ];
