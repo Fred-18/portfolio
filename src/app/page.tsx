@@ -6,6 +6,7 @@ import Certificate from "../../components/certificate/Certificate";
 import ProfessionalExperience from "../../components/professionalExperience/ProfessionalExperience";
 import Testimonials from "../../components/testimonials/Testimonials";
 import SoftSkills from "../../components/softskills/SoftSkills";
+import Contact from "../../components/contact/Contact";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ProfessionalExperience />
       <Testimonials />
       <SoftSkills />
+      <Contact />
     </>
   );
 }
