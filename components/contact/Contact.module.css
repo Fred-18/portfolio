@@ -1,0 +1,35 @@
+.contact__container {
+  background: white;
+}
+
+@media (min-width: 768px) {
+  .contact__section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1f3d2b;
+  }
+  .contact__name__and__icon__section {
+    display: flex;
+    color: #c58f32;
+    flex-direction: column;
+    gap: 40px;
+    /*     align-items: flex-start;
+ */
+  }
+  .contact__social {
+    flex-direction: column;
+  }
+
+  .contact__icons {
+    background-color: #c58f32;
+    border-radius: 999%;
+    padding: 10px;
+    height: 50px;
+    width: fit-content;
+  }
+}
+
+/* <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a> */
+/* <a href="https://www.flaticon.com/fr/icones-gratuites/gmail" title="gmail icônes">Gmail icônes créées par smoodlabs - Flaticon</a> */
+/* <a href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">Github icônes créées par pictogramer - Flaticon</a> */
