@@ -20,6 +20,8 @@
   background-color: #f8f4e2;
   font-family: poppins, sans-serif;
   border: solid 5px #c58f32;
+  font-weight: bold;
+  font-size: x-large;
 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
 }
@@ -42,6 +44,7 @@
   font-weight: bold;
   border: solid 5px #c58f32;
   height: 100%;
+  font-size: large;
 }
 
 .professionalExperience__card__title {
