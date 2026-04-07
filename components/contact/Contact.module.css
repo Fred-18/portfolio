@@ -1,35 +1,118 @@
-.contact__container {
-  background: white;
+.contact__title {
+  border-top: 5px solid #000;
+  padding: 20px 0 20px 50px;
+  background: #f8f4e2;
+  font-family: Anton, sans-serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: #1f3d2b;
 }
+
+.contact__section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #f8f4e2;
+}
+
+.contact__name {
+  padding: 20px 0 20px 50px;
+  font-family: Poppins, sans-serif;
+  color: #1f3d2b;
+}
+
+.contact__icon__and__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  color: #f8f4e2;
+}
+
+.contact__icon__and__text__group {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact__email__and__phone__group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Poppins, sans-serif;
+}
+
+.contact__icons {
+  width: 70px;
+  padding: 15px;
+  overflow: hidden;
+  border: 5px solid #1f3d2b;
+  border-radius: 9px;
+  background-color: #c58f32;
+  color: #f8f4e2;
+}
+
+.contact__text__mail,
+.contact__text__phone {
+  display: flex;
+  padding: 12px;
+  font-family: Poppins, sans-serif;
+  text-decoration: none;
+  color: #1f3d2b;
+}
+
+.contact__separation {
+  width: 100%;
+  height: 6px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #b97a32, #8b5720);
+}
+
+/* Optionnel si tu l’utilises vraiment */
+.contact__text {
+  font-family: Poppins, sans-serif;
+  color: #1f3d2b;
+}
+
+/* Fred, si tu oublies le CSS par défaut et celui pour mobile,
+   ce que tu mets dans la media query, c’est le CSS desktop + tablette */
 
 @media (min-width: 768px) {
   .contact__section {
-    display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #1f3d2b;
   }
+
   .contact__name__and__icon__section {
     display: flex;
-    color: #c58f32;
     flex-direction: column;
-    gap: 40px;
-    /*     align-items: flex-start;
- */
+    justify-content: flex-start;
+    gap: 20px;
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    color: #1f3d2b;
   }
-  .contact__social {
-    flex-direction: column;
+
+  .contact__icon__and__text {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 20px 0 20px 50px;
+    color: #1f3d2b;
+  }
+
+  .contact__icon__and__text__group {
+    gap: 10px;
   }
 
   .contact__icons {
-    background-color: #c58f32;
-    border-radius: 999%;
     padding: 10px;
-    height: 50px;
-    width: fit-content;
+  }
+
+  .contact__separation {
+    width: 6px;
+    height: 140px;
   }
 }
-
-/* <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a> */
-/* <a href="https://www.flaticon.com/fr/icones-gratuites/gmail" title="gmail icônes">Gmail icônes créées par smoodlabs - Flaticon</a> */
-/* <a href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">Github icônes créées par pictogramer - Flaticon</a> */
