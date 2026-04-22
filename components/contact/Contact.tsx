@@ -1,31 +1,29 @@
+import { contactContent } from "@/content/contactContent";
 import styles from "../contact/Contact.module.css";
 import Image from "next/image";
 
 export default function Contact() {
   return (
     <>
-      {/* TITLE */}
-      <div className={styles.contact__title}>Let's Connect there</div>
+      <div className={styles.contact__title}>
+        {contactContent.Contact.contactTitle}
+      </div>
 
       <section className={styles.contact__section}>
-        {/* LEFT SIDE */}
-        <article className={styles.contact__name__and__icon__section}>
-          <p className={styles.contact__name}>
-            Feel free to connect with me on these platforms, or contact me
-            <br />
-            directly via email or phone.
+        <article className={styles.contact__information__and__icone__section}>
+          <p className={styles.contact__information}>
+            {contactContent.Contact.contactInformation}
           </p>
 
           <div className={styles.contact__icon__and__text}>
-            {/* GITHUB */}
             <div className={styles.contact__icon__and__text__group}>
               <a
-                href="https://github.com/Fred-18"
+                href={contactContent.Contact.contactGithub}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
-                  className={styles.contact__icons}
+                  className={styles.contact__icons__desing}
                   src="/assets/icons/github.png"
                   alt="github icon"
                   width={70}
@@ -34,15 +32,14 @@ export default function Contact() {
               </a>
             </div>
 
-            {/* LINKEDIN */}
             <div className={styles.contact__icon__and__text__group}>
               <a
-                href="https://www.linkedin.com/in/fred-nobre-software-developer-fullstack-cdi-paris/"
+                href={contactContent.Contact.contactLinkedin}
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
-                  className={styles.contact__icons}
+                  className={styles.contact__icons__desing}
                   src="/assets/icons/linkedin.png"
                   alt="linkedin icon"
                   width={70}
@@ -50,30 +47,36 @@ export default function Contact() {
                 />
               </a>
             </div>
-          </div>
-        </article>
-
-        {/* SEPARATOR */}
-        <div className={styles.contact__separation} aria-hidden="true"></div>
-
-        {/* RIGHT SIDE */}
-        <article className={styles.contact__email__and__phone__section}>
-          <div className={styles.contact__email__and__phone__group}>
-            {/* EMAIL */}
-            <a
-              href="mailto:fred.nobre@gmail.com"
-              className={styles.contact__text__mail}
-            >
-              GMAIL: fred.nobre@gmail.com
-            </a>
-
-            {/* PHONE */}
-            <a href="tel:0617548782" className={styles.contact__text__phone}>
-              Tel: 06 17 54 87 82
-            </a>
+            <div className={styles.contact__icon__and__text__group}>
+              <a
+                href={contactContent.Contact.contactEmail}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  className={styles.contact__icons__desing}
+                  src="/assets/icons/courrier.png"
+                  alt="mail icon"
+                  width={70}
+                  height={70}
+                />
+              </a>
+            </div>
           </div>
         </article>
       </section>
     </>
   );
 }
+
+/* TODO:
+   4 Ajouter la section copyright 
+   6 Ajouter mes etapes récente dans ma biographie(voir gpt si nécessaire)
+   7 Retravailer la navbar
+   8 Retrouver le moyen de remtre mon icone de tortue \
+   9 Refacto le code css  
+
+/* © 2025 Fred Nobre. All rights reserved.  
+This portfolio and its contents are the intellectual property of Fred Nobre.  
+Do not reproduce without permission.
+ */

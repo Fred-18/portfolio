@@ -1,8 +1,10 @@
 export interface iContact {
   Contact: {
     contactTitle: string;
-    contactDescription: string;
+    contactInformation: string;
     contactEmail: string;
-    contactPhone: string;
+    contactGithub: string;
+    contactLinkedin: string;
+    contactCopyRight: string;
   };
 }

@@ -15,10 +15,11 @@
   background-color: #f8f4e2;
 }
 
-.contact__name {
+.contact__information {
   padding: 20px 0 20px 50px;
   font-family: Poppins, sans-serif;
   color: #1f3d2b;
+  font-size: x-large; /* renomer cette section description */
 }
 
 .contact__icon__and__text {
@@ -36,14 +37,7 @@
   text-align: center;
 }
 
-.contact__email__and__phone__group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Poppins, sans-serif;
-}
-
-.contact__icons {
+.contact__icons__desing {
   width: 70px;
   padding: 15px;
   overflow: hidden;
@@ -53,39 +47,16 @@
   color: #f8f4e2;
 }
 
-.contact__text__mail,
-.contact__text__phone {
-  display: flex;
-  padding: 12px;
-  font-family: Poppins, sans-serif;
-  text-decoration: none;
-  color: #1f3d2b;
-}
-
-.contact__separation {
-  width: 100%;
-  height: 6px;
-  flex-shrink: 0;
-  border-radius: 999px;
-  background: linear-gradient(180deg, #b97a32, #8b5720);
-}
-
-/* Optionnel si tu l’utilises vraiment */
-.contact__text {
-  font-family: Poppins, sans-serif;
-  color: #1f3d2b;
-}
-
 /* Fred, si tu oublies le CSS par défaut et celui pour mobile,
    ce que tu mets dans la media query, c’est le CSS desktop + tablette */
 
 @media (min-width: 768px) {
   .contact__section {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
-
-  .contact__name__and__icon__section {
+  /* .contact__name__and__icon__section */
+  .contact__information__and__icone__section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -106,14 +77,12 @@
   .contact__icon__and__text__group {
     gap: 10px;
   }
-
   .contact__icons {
+    transition: transform 0.1s ease;
     padding: 10px;
   }
-
-  .contact__separation {
-    width: 6px;
-    height: 140px;
+  .contact__icons:active {
+    transform: scale(0.95);
   }
 }
 /* <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a> */
