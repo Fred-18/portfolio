@@ -7,6 +7,7 @@ import ProfessionalExperience from "../../components/professionalExperience/Prof
 import Testimonials from "../../components/testimonials/Testimonials";
 import SoftSkills from "../../components/softskills/SoftSkills";
 import Contact from "../../components/contact/Contact";
+import CopyRight from "../../components/copyRight/copyRight";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <SoftSkills />
       <Contact />
+      <CopyRight />
     </>
   );
 }

@@ -1,0 +1,10 @@
+.copyRight__container {
+  background-color: #1f3d2b;
+}
+.copyRight__text {
+  padding: 2%;
+  color: #f8f4e2;
+  font-size: xx-large;
+  text-align: center;
+  font-family: anton, sans-serif;
+}

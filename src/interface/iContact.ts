@@ -5,6 +5,5 @@ export interface iContact {
     contactEmail: string;
     contactGithub: string;
     contactLinkedin: string;
-    contactCopyRight: string;
   };
 }
