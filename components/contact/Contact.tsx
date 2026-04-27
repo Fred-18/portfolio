@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Contact() {
   return (
     <>
-      <div className={styles.contact__title}>
+      <div id="Contact" className={styles.contact__title}>
         {contactContent.Contact.contactTitle}
       </div>
 
@@ -70,13 +70,9 @@ export default function Contact() {
 }
 
 /* TODO:
-   4 Ajouter la section copyright 
    6 Ajouter mes etapes récente dans ma biographie(voir gpt si nécessaire)
    7 Retravailer la navbar
    8 Retrouver le moyen de remtre mon icone de tortue \
    9 Refacto le code css  
-
-/* © 2025 Fred Nobre. All rights reserved.  
-This portfolio and its contents are the intellectual property of Fred Nobre.  
-Do not reproduce without permission.
+   10 Reprendre les components 1 par 1 pour refacto
  */

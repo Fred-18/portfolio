@@ -6,7 +6,9 @@ import { cardContent } from "../../src/content/cardContent";
 export default function Tools() {
   return (
     <>
-      <h2 className={styles.Tools__title}>{toolsContent.Tools.title}</h2>
+      <h2 id="tools" className={styles.Tools__title}>
+        {toolsContent.Tools.title}
+      </h2>
       <div className={styles.Tools__container}>
         {cardContent.Card.map((item) => (
           <Card

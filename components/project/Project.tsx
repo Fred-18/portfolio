@@ -6,7 +6,9 @@ import { projectContent } from "../../src/content/projectContent";
 export default function Project() {
   return (
     <>
-      <h2 className={styles.Project__title}>Project</h2>
+      <h2 id="projects" className={styles.Project__title}>
+        Project
+      </h2>
       <p className={styles.Project__message}>{projectContent.Project.p}</p>
       <section className={styles.Project__container}>
         <div className={styles.bigCard__items}>

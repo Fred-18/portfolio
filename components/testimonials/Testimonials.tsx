@@ -5,7 +5,9 @@ import TestimonialsItem from "../testimonialsItem/TestimonialsItems";
 export default function Testimonials() {
   return (
     <>
-      <h2 className={styles.testimonials__title}>Testimonials</h2>
+      <h2 id="testimonials" className={styles.testimonials__title}>
+        Testimonials
+      </h2>
       <div className={styles.testimonials__container}>
         <section className={styles.testimonials__section}>
           {testimonialContent.map((value) => (

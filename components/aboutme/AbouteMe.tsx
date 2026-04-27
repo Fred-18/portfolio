@@ -6,7 +6,7 @@ export default function AboutMe() {
     <>
       <section className={styles.sectionAboutMe}>
         <div className={styles.section__container}>
-          <h2 className={styles.section__title}>
+          <h2 id="aboutMe" className={styles.section__title}>
             {aboutMeContent.AboutMe.title}
           </h2>
           <p className={styles.section__p}>{aboutMeContent.AboutMe.p}</p>

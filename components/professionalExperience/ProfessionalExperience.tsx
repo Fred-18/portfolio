@@ -6,7 +6,10 @@ export default function ProfessionalExperience() {
   return (
     <>
       <div className={styles.professionalExperience__container}>
-        <h3 className={styles.professionalExperience__title}>
+        <h3
+          id="professionalExperience"
+          className={styles.professionalExperience__title}
+        >
           Professional Experience
         </h3>
         <section className={styles.professionalExperience__section}>
