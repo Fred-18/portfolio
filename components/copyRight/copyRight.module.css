@@ -1,5 +1,6 @@
 .copyRight__container {
   background-color: #1f3d2b;
+  border-top: solid 5px black;
 }
 .copyRight__text {
   padding: 2%;
