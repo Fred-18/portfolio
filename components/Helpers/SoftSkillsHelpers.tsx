@@ -1,3 +1,4 @@
+"use client";
 import { softskillsContent } from "@/content/softSkillsContent";
 import SoftSkillsItems from "../softSkillsItems/softSkillsItems";
 
