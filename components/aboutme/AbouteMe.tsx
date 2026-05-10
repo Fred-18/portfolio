@@ -5,11 +5,13 @@ export default function AboutMe() {
   return (
     <>
       <section className={styles.sectionAboutMe}>
-        <div className={styles.section__container}>
-          <h2 id="aboutMe" className={styles.section__title}>
+        <div className={styles.sectionAboutMe__container}>
+          <h2 id="aboutMe" className={styles.sectionAboutMe__title}>
             {aboutMeContent.AboutMe.title}
           </h2>
-          <p className={styles.section__p}>{aboutMeContent.AboutMe.p}</p>
+          <p className={styles.sectionAboutMe__description}>
+            {aboutMeContent.AboutMe.aboutMeDescription}
+          </p>
         </div>
       </section>
     </>

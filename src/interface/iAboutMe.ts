@@ -1,6 +1,6 @@
 export interface IAboutMe {
-    AboutMe: {
-        title: string;
-        p: string;
-    }
+  AboutMe: {
+    title: string;
+    aboutMeDescription: string;
+  };
 }
