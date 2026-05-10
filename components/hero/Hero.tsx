@@ -9,11 +9,11 @@ export default function Hero() {
           <h1 className={styles.title}>{portfolioContent.Hero.title}</h1>
           <h2 className={styles.subtitle}>{portfolioContent.Hero.subtitle}</h2>
 
-          <img
+          {/*  <img
             className={styles.turtle}
             src={portfolioContent.Hero.images}
             alt={"fred turtle"}
-          />
+          /> */}
         </figure>
       </header>
     </>
