@@ -6,9 +6,11 @@
   justify-content: space-between;
   border: solid 5px #c58f32;
   border-radius: 999px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 }
 .SoftSkills__items:hover {
-  transform: scale(1.05); /* plus doux */
+  transform: scale(1.05);
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
