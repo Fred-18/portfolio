@@ -1,5 +1,5 @@
 import styles from "../certificationItem/CertificationItems.module.css";
-import { iCertificate } from "../../interface/iCertificate";
+import { iCertificate } from "@/interface/iCertificate";
 
 export default function CertificationItems({
   title,
