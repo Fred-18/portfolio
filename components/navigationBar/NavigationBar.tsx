@@ -1,11 +1,26 @@
 "use client";
 import styles from "./Navigation.module.css";
 import BurgerMenu from "../burgerMenu/BurgerMenu";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { navbarContent } from "@/content/navbarContent";
 
 export default function NavigationBar() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
+  const navRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (navRef.current && !navRef.current.contains(event.target as Node)) {
+        setMenuIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   const updateNavbarState = () => {
     setMenuIsOpen((prev) => !prev);
@@ -13,7 +28,7 @@ export default function NavigationBar() {
 
   return (
     <>
-      <nav>
+      <nav ref={navRef}>
         <div className={styles.bm}>
           <BurgerMenu isOpen={menuIsOpen} onToggleAction={updateNavbarState} />
         </div>
