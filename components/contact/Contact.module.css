@@ -20,6 +20,7 @@
   font-family: Poppins, sans-serif;
   color: #1f3d2b;
   font-size: x-large; /* renomer cette section description */
+  font-weight: bolder;
 }
 
 .contact__icon__and__text {
@@ -83,6 +84,11 @@
   }
   .contact__icons:active {
     transform: scale(0.95);
+  }
+
+  .contact__icons__desing:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
   }
 }
 /* <a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a> */
