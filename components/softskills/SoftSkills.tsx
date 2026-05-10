@@ -1,5 +1,5 @@
 import styles from "./softSkills.module.css";
-import SoftSkillsList from "../Helpers/softskillsHelpers";
+import SoftSkillsList from "../Helpers/SoftSkillsList";
 export default function SoftSkills() {
   return (
     <>
