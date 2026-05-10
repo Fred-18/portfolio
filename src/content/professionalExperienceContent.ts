@@ -1,6 +1,6 @@
-import { IProfessionalExperience } from "../interface/iProfessionalExperience";
+import { iProfessionalExperience } from "../interface/iProfessionalExperience";
 
-export const professionalExperienceContent: IProfessionalExperience[] = [
+export const professionalExperienceContent: iProfessionalExperience[] = [
   {
     id: "1",
     companyName: "Octo Technology – Accenture",

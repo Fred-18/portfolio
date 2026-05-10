@@ -1,11 +1,11 @@
 import styles from "./professionalExperienceItem.module.css";
-import { IProfessionalExperience } from "../../interfaces/IProfessionalExperience";
+import { iProfessionalExperience } from "../../src/interface/iProfessionalExperience";
 
 export default function ProfessionalExperienceItem({
   companyName,
   dates,
   missions
-}: IProfessionalExperience) {
+}: iProfessionalExperience) {
   return (
     <>
       <article className={styles.professionalExperienceItem__container}>
