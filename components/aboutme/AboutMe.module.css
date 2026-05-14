@@ -22,8 +22,12 @@
 .sectionAboutMe__description {
   display: flex;
   padding-left: 50px;
-  padding-bottom: 20px;
+  padding-right: 50px;
   font-size: x-large;
   display: block;
   font-weight: bolder;
+  width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  text-align: center;
 }
