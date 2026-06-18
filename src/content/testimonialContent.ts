@@ -20,7 +20,7 @@ export const testimonialContent: ITestimonials[] = [
     message:
       "I had the pleasure of working with Fred, and I can only warmly recommend him. He is a curious, committed developer who is always eager to learn. He asks relevant questions, seeks to deeply understand technical issues, and constantly improves the quality of his code. Fred also brings real positive energy to the team: he is pleasant, kind, and knows how to collaborate effectively with everyone. He already has strong technical maturity and real potential to quickly grow into roles with greater responsibility.",
     linkedinUrl: "https://www.linkedin.com/in/juliette-ferrer/",
-    avatar: "./assets/ju.jpeg"
+    avatar: "./assets/Ju.jpeg"
   },
 
   {

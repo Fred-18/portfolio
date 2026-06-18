@@ -15,7 +15,7 @@ export const cardContent: iCard = {
     {
       cardId: "3",
       cardTitle: "Springboot",
-      cardImages: "/assets/Springboot.png "
+      cardImages: "/assets/springboot.png "
     },
     {
       cardId: "4",
@@ -25,7 +25,7 @@ export const cardContent: iCard = {
     {
       cardId: "5",
       cardTitle: "Next.js",
-      cardImages: "/assets/Nextjslogo.png"
+      cardImages: "/assets/nextjslogo.png"
     },
     {
       cardId: "6",
